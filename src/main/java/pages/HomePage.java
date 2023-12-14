@@ -17,6 +17,10 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 
+	
+	
+	
+	
 	@FindBy(xpath = "//span[contains(text(), 'Property')]")
 	WebElement property;
 
