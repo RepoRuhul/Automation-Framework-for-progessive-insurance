@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //span[contains(text(), 'Property')]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Condo')]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Renters')]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Mobile Home')]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Homeowners')]]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[14215 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='zipCode_overlay_subproducts']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: qsButton_overlay_subproducts]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[3343 Bailey Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_PropertyAddressSearch']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_HasApartmentNumber']'<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[2A <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@name='AddressEntryPrefillEdit_embedded_questions_list_ApartmentUnit']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 5<br>]]>
+    </line>
+    <line>
+      <![CDATA[Abdullah <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_FirstName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Al <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_MiddleInitial]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Mamun <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_LastName]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[10102009 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_DateOfBirth']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 1<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-13T22:54:55 EST" name="Default suite" finished-at="2023-12-13T22:55:54 EST" duration-ms="59441">
+    <groups>
+    </groups>
+    <test started-at="2023-12-13T22:54:55 EST" name="Default test" finished-at="2023-12-13T22:55:54 EST" duration-ms="59441">
+      <class name="pagesTest.HomePageTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:pagesTest.HomePageTest@f78a47e]" started-at="2023-12-13T22:54:55 EST" name="setUP" finished-at="2023-12-13T22:54:59 EST" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest()[pri:0, instance:pagesTest.HomePageTest@f78a47e]" started-at="2023-12-13T22:54:59 EST" name="inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest" finished-at="2023-12-13T22:55:54 EST" duration-ms="54884" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //span[contains(text(), 'Property')]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Condo')]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Renters')]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Mobile Home')]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Homeowners')]]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[14215 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='zipCode_overlay_subproducts']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: qsButton_overlay_subproducts]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[3343 Bailey Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_PropertyAddressSearch']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_HasApartmentNumber']'<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[2A <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@name='AddressEntryPrefillEdit_embedded_questions_list_ApartmentUnit']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 5<br>]]>
+            </line>
+            <line>
+              <![CDATA[Abdullah <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_FirstName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Al <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_MiddleInitial]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Mamun <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_LastName]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[10102009 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_DateOfBirth']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 1<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomePageTest@f78a47e]" started-at="2023-12-13T22:55:54 EST" name="tearUp" finished-at="2023-12-13T22:55:54 EST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- pagesTest.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

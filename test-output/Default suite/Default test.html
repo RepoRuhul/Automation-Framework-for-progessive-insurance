@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 22:54:55 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59441 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pagesTest.HomePageTest.inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest()'><b>inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest</b><br>Test class: pagesTest.HomePageTest<br/>
+<a href="#Output-10001825" onClick='toggleBox("Output-10001825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10001825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10001825">
+Sleeping ... zZz 1<br><br/>
+[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //span[contains(text(), 'Property')]]<---------> has been clicked<br><br/>
+Sleeping ... zZz 3<br><br/>
+[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Condo')]]<---------> has been clicked<br><br/>
+Sleeping ... zZz 1<br><br/>
+[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Renters')]]<---------> has been clicked<br><br/>
+Sleeping ... zZz 1<br><br/>
+[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Mobile Home')]]<---------> has been clicked<br><br/>
+Sleeping ... zZz 1<br><br/>
+[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //label[contains(text(), 'Homeowners')]]<---------> has been clicked<br><br/>
+Sleeping ... zZz 1<br><br/>
+14215 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='zipCode_overlay_subproducts']]<br><br/>
+Sleeping ... zZz 1<br><br/>
+[[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: qsButton_overlay_subproducts]<---------> has been clicked<br><br/>
+Sleeping ... zZz 5<br><br/>
+3343 Bailey Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_PropertyAddressSearch']]<br><br/>
+Sleeping ... zZz 1<br><br/>
+Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_HasApartmentNumber']'<---------> has been clicked<br><br/>
+Sleeping ... zZz 5<br><br/>
+2A <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@name='AddressEntryPrefillEdit_embedded_questions_list_ApartmentUnit']]<br><br/>
+Sleeping ... zZz 5<br><br/>
+Abdullah <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_FirstName]<br><br/>
+Sleeping ... zZz 1<br><br/>
+Al <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_MiddleInitial]<br><br/>
+Sleeping ... zZz 1<br><br/>
+Mamun <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> id: AddressEntryPrefillEdit_embedded_questions_list_LastName]<br><br/>
+Sleeping ... zZz 1<br><br/>
+10102009 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (dc5f70b2d77a8bf7d7674d7e0bee6e2b)] -> xpath: //input[@id='AddressEntryPrefillEdit_embedded_questions_list_DateOfBirth']]<br><br/>
+Sleeping ... zZz 1<br><br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>pagesTest.HomePageTest@f78a47e</td></tr>
+</table><p>
+</body>
+</html>
