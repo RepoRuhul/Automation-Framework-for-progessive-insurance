@@ -21,18 +21,22 @@ import com.aventstack.extentreports.ExtentTest;
 
 import constants.Profile;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.GetAQuotePage;
 import pages.HomePage;
+import pages.SelectPropertyTypePage;
 import utils.Configuration;
 import static utils.IConstant.*;
 
 public class BaseClass {
 	public WebDriver driver;
-	public HomePage homePage;
 	Configuration configuration;
 	public Dimension dimension;
 	public Actions actions;
 	public JavascriptExecutor js;
 	public Select select;
+	public HomePage homePage;
+	public SelectPropertyTypePage selectPropertyTypePage;
+	public GetAQuotePage getAQuotePage;
 	String browserName;
 	ExtentReports report;
 	ExtentTest extentTest;
@@ -68,7 +72,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitlyWait));
 		initClass();
 		actions = new Actions(driver);
-		js = (JavascriptExecutor) driver; // Memorize it
+		js = (JavascriptExecutor) driver;
 	}
 
 	public void initDriver() {
@@ -100,6 +104,8 @@ public class BaseClass {
 
 	public void initClass() {
 		homePage = new HomePage(driver);
+		selectPropertyTypePage = new SelectPropertyTypePage(driver);
+		getAQuotePage = new GetAQuotePage(driver);
 	}
 
 	/*

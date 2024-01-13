@@ -11,15 +11,14 @@ import org.testng.Assert;
 
 import reports.Loggers;
 
-
 public class CommonWaits {
 	static WebDriver driver;
 	static WebDriverWait wait;
-	
+
 	public CommonWaits(WebDriverWait wait) {
 		CommonWaits.wait = wait;
 	}
-	
+
 	public static void waitThenClick(WebDriver driver, WebElement element) {
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

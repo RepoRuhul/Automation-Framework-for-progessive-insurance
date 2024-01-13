@@ -5,9 +5,12 @@
 	<test thread-count="5" name="Test">
 		<parameter name="userIdFieldText" value="AugustTDDFramework"></parameter>
 		<parameter name="passwordFieldText" value="Enthrall@2023"></parameter>
-		<parameter name="errorMsg" value="Invalid combination of User ID and Password. Enter valid User ID and Password and try again."></parameter>
+		<parameter name="errorMsg"
+			value="Invalid combination of User ID and Password. Enter valid User ID and Password and try again."></parameter>
 		<classes>
 			<class name="pages.HomePageParameterizedTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -17,5 +17,7 @@
 		<classes>
 			<class name="pages.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
