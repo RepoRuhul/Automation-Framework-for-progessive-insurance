@@ -9,6 +9,6 @@ public class GetAQuotePageTest extends BaseClass{
 	
 	@Test(enabled = true)
 	public void inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest() {
-		homePage.clickPropertyButton();
+		getAQuotePage.directingToGetAQuotePage();
 	}
 }

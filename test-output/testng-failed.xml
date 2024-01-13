@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pagesTest.HomePageParameterizedTest">
+      <class name="pagesTest.GetAQuotePageTest">
         <methods>
           <include name="tearUp"/>
-          <include name="loginValidation"/>
+          <include name="inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest"/>
           <include name="beforeClassSetUp"/>
           <include name="setUP"/>
         </methods>
-      </class> <!-- pagesTest.HomePageParameterizedTest -->
+      </class> <!-- pagesTest.GetAQuotePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

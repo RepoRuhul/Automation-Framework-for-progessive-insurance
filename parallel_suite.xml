@@ -6,24 +6,29 @@
 		<classes>
 			<class name="pages.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test> <!--
+	Test -->
 	<test name="EdgeTest">
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="pages.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test> <!--
+	Test -->
 	<test name="FireFoxTest">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="pages.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test> <!--
+	Test -->
 	<test name="SafariTest">
 		<parameter name="browser" value="safari" />
 		<classes>
 			<class name="pages.HomePageTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
 

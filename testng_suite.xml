@@ -11,4 +11,5 @@
 </suite>
 
 <!--To create this Test Suit: Project .... Right click .... TestNG .... Covert To TestNG -->
-<!-- When we use Test Suit, we don't have relation with browser of config.properties file -->
+<!-- When we use Test Suit, we don't have relation with browser of
+config.properties file -->

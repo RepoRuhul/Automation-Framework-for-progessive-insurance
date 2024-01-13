@@ -10,17 +10,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class GetAQuotePage {
-	
+
 	WebDriver driver;
 
 	public GetAQuotePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	
-	
-	
+
 	@FindBy(xpath = "//input[@id='AddressEntryPrefillEdit_embedded_questions_list_PropertyAddressSearch']")
 	WebElement propertyAddressField; //
 
@@ -28,14 +25,7 @@ public class GetAQuotePage {
 	WebElement apartment;
 	@FindBy(xpath = "//input[@name='AddressEntryPrefillEdit_embedded_questions_list_ApartmentUnit']")
 	WebElement apartmentNumber; //
-	
-	
 
-	
-	
-	
-	
-	
 	@FindBy(id = "AddressEntryPrefillEdit_embedded_questions_list_FirstName")
 	WebElement firstName; //
 	@FindBy(id = "AddressEntryPrefillEdit_embedded_questions_list_MiddleInitial")
@@ -45,16 +35,9 @@ public class GetAQuotePage {
 
 	@FindBy(xpath = "//input[@id='AddressEntryPrefillEdit_embedded_questions_list_DateOfBirth']")
 	WebElement dateOfBirth; //
-	
-	
-	
-	
 
 	public void directingToGetAQuotePage() {
-		
-		
-		
-		
+		driver.navigate().to("https://autoinsurance5.progressivedirect.com/0/UQA/Quote/AddressEntryPrefillEdit");
 		inputText(propertyAddressField, "3343 Bailey Ave");
 		pause(2);
 
@@ -62,7 +45,7 @@ public class GetAQuotePage {
 		pause(5);
 		inputText(apartmentNumber, "2A");
 		pause(5);
-		
+
 		inputText(firstName, "Abdullah");
 		pause(2);
 
@@ -76,7 +59,5 @@ public class GetAQuotePage {
 		pause(2);
 
 	}
-	
-	
-	
+
 }
