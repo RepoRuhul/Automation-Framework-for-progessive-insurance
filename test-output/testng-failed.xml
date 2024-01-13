@@ -6,9 +6,9 @@
       <class name="pagesTest.GetAQuotePageTest">
         <methods>
           <include name="tearUp"/>
-          <include name="inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest"/>
           <include name="beforeClassSetUp"/>
           <include name="setUP"/>
+          <include name="getAQuote"/>
         </methods>
       </class> <!-- pagesTest.GetAQuotePageTest -->
     </classes>

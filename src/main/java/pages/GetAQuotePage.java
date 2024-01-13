@@ -38,6 +38,7 @@ public class GetAQuotePage {
 
 	public void directingToGetAQuotePage() {
 		driver.navigate().to("https://autoinsurance5.progressivedirect.com/0/UQA/Quote/AddressEntryPrefillEdit");
+		clickElement(propertyAddressField);
 		inputText(propertyAddressField, "3343 Bailey Ave");
 		pause(2);
 

@@ -8,7 +8,7 @@ public class GetAQuotePageTest extends BaseClass{
 
 	
 	@Test(enabled = true)
-	public void inputTextInUserIdAndPasswordFieldThenClickLoginButtonTest() {
+	public void getAQuote() {
 		getAQuotePage.directingToGetAQuotePage();
 	}
 }
