@@ -1,10 +1,9 @@
 package pages;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import static common.CommonActions.*;
@@ -41,77 +40,47 @@ public class HomePage {
 	@FindBy(id = "qsButton_overlay_subproducts")
 	WebElement get_a_quote; //
 	
-	@FindBy(xpath = "//input[@id='AddressEntryPrefillEdit_embedded_questions_list_PropertyAddressSearch']")
-	WebElement propertyAddressField; //
-
-	@FindBy(xpath = "//input[@id='AddressEntryPrefillEdit_embedded_questions_list_HasApartmentNumber']")
-	WebElement apartment;
-	@FindBy(xpath = "//input[@name='AddressEntryPrefillEdit_embedded_questions_list_ApartmentUnit']")
-	WebElement apartmentNumber; //
-	
 	
 
-	
-	
-	
-	
-	
-	@FindBy(id = "AddressEntryPrefillEdit_embedded_questions_list_FirstName")
-	WebElement firstName; //
-	@FindBy(id = "AddressEntryPrefillEdit_embedded_questions_list_MiddleInitial")
-	WebElement middleName; //
-	@FindBy(id = "AddressEntryPrefillEdit_embedded_questions_list_LastName")
-	WebElement lastName; //
-
-	@FindBy(xpath = "//input[@id='AddressEntryPrefillEdit_embedded_questions_list_DateOfBirth']")
-	WebElement dateOfBirth; //
-
-	public void inputTextInUserIdAndPasswordFieldThenClickLoginButton() {
-		pause(1);
+	public void clickPropertyButton() {
+		pause(2);
+		clickElement(property);
+		elementDisplayed(property);
+		currentUrl(driver);
+		verifyTitle(driver, "An Insurance Company You Can Rely On | Progressive");
+		pause(3);
+		driver.navigate().back();
+		pause(2);
 		clickElement(property);
 		pause(3);
-
+		
 		clickElement(condo);
-		pause(1);
+		pause(2);
+		clickElement(condo);
+		elementDisplayed(condo);
+		currentUrl(driver);
+		verifyTitle(driver, "An Insurance Company You Can Rely On | Progressive");
+		pause(3);
 
 		clickElement(renters);
-		pause(1);
+		pause(2);
 
 		clickElement(mobileHome);
-		pause(1);
+		pause(2);
 
 		clickElement(Homeowners);
-		pause(1);
+		pause(2);
 
 //		clickElement(auto);
 //		pause(1);
 
 		inputText(EnterZipcode, "14215");
-		pause(1);
+		pause(2);
 
 		clickElement(get_a_quote);
 		pause(5);
 
-		inputText(propertyAddressField, "3343 Bailey Ave");
-		pause(1);
-
-		clickElement(apartment);
-		pause(5);
-		inputText(apartmentNumber, "2A");
-		pause(5);
-		
-		inputText(firstName, "Abdullah");
-		pause(1);
-
-		inputText(middleName, "Al");
-		pause(1);
-
-		inputText(lastName, "Mamun");
-		pause(1);
-
-		inputText(dateOfBirth, "10102009");
-		pause(1);
-
+	
 	}
 
 }
